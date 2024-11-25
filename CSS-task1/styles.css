@@ -1,0 +1,31 @@
+@layer firstLayer, secondLayer;
+
+/* p#addSpecificity {
+  background-color: red;
+  color: grey !important;
+  border: 5px inset yellow;
+} */
+
+@layer secondLayer {
+    p#addSpecificity {
+        background-color: green;
+        color: blue !important;
+        border-width: 10px;
+        border-style: dotted !important;
+    }
+  }  
+
+
+/* p#addSpecificity {
+  border-style: solid !important;
+} */
+
+@layer firstLayer {
+    p#addSpecificity {
+        background-color: blue;
+        color: white !important;
+        border-width: 5px;
+        border-style: dashed !important;
+    }
+}
+
