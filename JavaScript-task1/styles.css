@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 500px;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  background: #ffc125;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
+  /* width: 350px; */
+}
